@@ -26,15 +26,17 @@ body {
 }
 
 .LänkarLayout {
+  box-sizing: border-box;
   display: block;
   font-family: "Open sans", sans-serif;
   height: 380px;
   line-height: 25px;
-  margin-bottom: -10px;
-  margin-left: -10px;
-  margin-right: -10px;
-  margin-top: -10px;
-  width: 960px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  width: 1200px;
+  pointer-events: auto;
 }
 
 .LänkarLayoutRow {
@@ -46,21 +48,63 @@ body {
   flex-wrap: wrap;
   max-width: 100%;
   max-height: 100%;
-  width: 960px;
-  
+  width: 1200px;
+  flex-basis: 100%;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 
 .L123 {
   font-size: 15px;
 }
 
-.PL123 {
+.ContainerStyle1 {
   background-color: rgb(245, 245, 245);
   border-color: rgb(0, 0, 0, 0);
   border-style: solid;
   border-width: 10px;
+  font-size: 16px;
+  display: flex;
+  flex-basis: 33.3333%;
+  height: 380px;
+  width: 320px;
+  max-height: 100%;
+  max-width: 33.3333%;
+  min-height: 380px;
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+  text-size-adjust: 100%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.ContainerStyle2 {
+  background-color: rgb(245, 245, 245);
+  border-color: rgb(0, 0, 0, 0);
+  border-style: solid;
+  border-width: 10px;
+  font-size: 16px;
+  display: flex;
+  flex-basis: 33.3333%;
   height: 380px;
   width: 320px;
   font-size: 25px;
   text-align: center;
+  position: relative;
+}
+
+.ContainerStyle3 {
+  background-color: rgb(245, 245, 245);
+  border-color: rgb(0, 0, 0, 0);
+  border-style: solid;
+  border-width: 10px;
+  font-size: 16px;
+  display: flex;
+  flex-basis: 33.3333%;
+  height: 380px;
+  width: 320px;
+  font-size: 25px;
+  text-align: center;
+  position: relative;
 }
