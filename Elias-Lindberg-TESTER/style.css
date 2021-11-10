@@ -25,49 +25,121 @@ body {
   margin-top: 10px;
 }
 
+.LänkarPosition {
+  box-sizing: border-box;
+  display: block;
+
+  margin-left: 170px;
+  margin-right: 170px;
+  margin-bottom: 40px;
+  margin-top: -10px;
+  height: 380px;
+  width: 1120px;
+  position: relative;
+}
+
 .LänkarLayout {
   box-sizing: border-box;
   display: block;
   font-family: "Open sans", sans-serif;
   height: 380px;
   line-height: 25px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
-  width: 1200px;
+  margin-bottom: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -10px;
+  width: 1140px;
   pointer-events: auto;
 }
 
 .LänkarLayoutRow {
+  box-sizing: border-box;
   display: flex;
   flex-direction: row;
   font-family: "Open sans", sans-serif;
   height: 380px;
-  line-height: 25px;
   flex-wrap: wrap;
   max-width: 100%;
-  max-height: 100%;
-  width: 1200px;
+  min-height: 100%;
+  width: 1140px;
   flex-basis: 100%;
-  flex-grow: 1;
-  flex-shrink: 1;
-}
-
-.L123 {
-  font-size: 15px;
+  pointer-events: auto;
 }
 
 .ContainerStyle1 {
   background-color: rgb(245, 245, 245);
+  background-clip: padding-box;
   border-color: rgb(0, 0, 0, 0);
   border-style: solid;
   border-width: 10px;
   font-size: 16px;
+  border-image-outset: 0px;
+  box-sizing: border-box;
   display: flex;
-  flex-basis: 33.3333%;
-  height: 380px;
-  width: 320px;
+  flex-basis: 33, 3333%;
+  height: 360px;
+  width: 380px;
+  max-height: 100%;
+  max-width: 33.3333%;
+  min-height: 380px;
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+  flex-grow: 0;
+  flex-shrink: 0;
+  background-origin: padding-box;
+}
+
+.ContainerLayout1 {
+  display: flex;
+  flex-basis: 0%;
+  flex-direction: column;
+  height: 360px;
+  width: 360px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.imageStyle1 {
+ margin-top: 60px ; 
+}
+
+.imageSize1 {
+  height: 80px;
+  width: 80px;
+}
+
+.ContainerH4Style1 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.ContainerText1 {
+  font-size: 15px;
+  text-align: center;
+  margin: 0 20px 0 20px;
+}
+
+.ContainerLänk1 {
+margin-top: 20px;
+color:darkorange;
+font-size: 18px;
+text-decoration: none;
+}
+
+.ContainerStyle2 {
+  background-color: rgb(245, 245, 245);
+  background-clip: padding-box;
+  border-color: rgb(0, 0, 0, 0);
+  border-style: solid;
+  border-width: 10px;
+  font-size: 16px;
+  border-image-outset: 0px;
+  box-sizing: border-box;
+  display: flex;
+  flex-basis: 33, 3333%;
+  height: 360px;
+  width: 380px;
   max-height: 100%;
   max-width: 33.3333%;
   min-height: 380px;
@@ -77,34 +149,45 @@ body {
   text-size-adjust: 100%;
   flex-grow: 0;
   flex-shrink: 0;
+  background-origin: padding-box;
 }
 
-.ContainerStyle2 {
-  background-color: rgb(245, 245, 245);
-  border-color: rgb(0, 0, 0, 0);
-  border-style: solid;
-  border-width: 10px;
-  font-size: 16px;
+.ContainerLayout2 {
   display: flex;
-  flex-basis: 33.3333%;
-  height: 380px;
-  width: 320px;
-  font-size: 25px;
-  text-align: center;
-  position: relative;
+  flex-direction: column;
+  height: 360px;
+  width: 360px;
 }
 
 .ContainerStyle3 {
   background-color: rgb(245, 245, 245);
+  background-clip: padding-box;
+
   border-color: rgb(0, 0, 0, 0);
   border-style: solid;
   border-width: 10px;
   font-size: 16px;
+  border-image-outset: 0px;
+  box-sizing: border-box;
   display: flex;
-  flex-basis: 33.3333%;
-  height: 380px;
-  width: 320px;
+  flex-basis: 33, 3333%;
+  height: 360px;
+  width: 380px;
+  max-height: 100%;
+  max-width: 33.3333%;
+  min-height: 380px;
   font-size: 25px;
   text-align: center;
   position: relative;
+  text-size-adjust: 100%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  background-origin: padding-box;
+}
+
+.ContainerLayout3 {
+  display: flex;
+  flex-direction: column;
+  height: 360px;
+  width: 360px;
 }
