@@ -2,6 +2,7 @@ body {
   background-color: lightgrey;
   background: no-repeat;
   background-image: url(Maybe_BetterIDEA.jpg);
+  background-size: 100%;
 }
 
 .HeaderMS {
@@ -92,8 +93,9 @@ body {
 
 .ContainerLayout1 {
   display: flex;
-  flex-basis: 0%;
+  flex-basis: 0;
   flex-direction: column;
+  justify-content: center;
   height: 360px;
   width: 360px;
   flex-grow: 1;
@@ -101,7 +103,7 @@ body {
 }
 
 .imageStyle1 {
- margin-top: 60px ; 
+  margin-top: 40px;
 }
 
 .imageSize1 {
@@ -110,7 +112,7 @@ body {
 }
 
 .ContainerH4Style1 {
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -121,10 +123,11 @@ body {
 }
 
 .ContainerLänk1 {
-margin-top: 20px;
-color:darkorange;
-font-size: 18px;
-text-decoration: none;
+  margin-top: 20px;
+  color: darkorange;
+  font-size: 18px;
+  text-decoration: none;
+  margin-bottom: 30px;
 }
 
 .ContainerStyle2 {
@@ -155,8 +158,37 @@ text-decoration: none;
 .ContainerLayout2 {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   height: 360px;
   width: 360px;
+}
+
+.imageStyle2 {
+  margin-top: 40px;
+}
+
+.imageSize2 {
+  height: 80px;
+  width: 80px;
+}
+
+.ContainerH4Style2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ContainerText2 {
+  font-size: 15px;
+  text-align: center;
+  margin: 0 20px 0 20px;
+}
+
+.ContainerLänk2 {
+  margin-top: 20px;
+  color: darkorange;
+  font-size: 18px;
+  text-decoration: none;
+  margin-bottom: 30px;
 }
 
 .ContainerStyle3 {
@@ -188,6 +220,37 @@ text-decoration: none;
 .ContainerLayout3 {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   height: 360px;
   width: 360px;
+}
+
+.imageStyle3 {
+  margin-top: 40px;
+}
+
+.imageSize3 {
+  height: 80px;
+  width: 80px;
+}
+
+.ContainerH4Style3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ContainerText3 {
+  font-size: 15px;
+  text-align: center;
+  margin: 0 20px 0 20px;
+  padding-top: 12.4px;
+  padding-bottom: 12.4px;
+}
+
+.ContainerLänk3 {
+  margin-top: 20px;
+  color: darkorange;
+  font-size: 18px;
+  text-decoration: none;
+  margin-bottom: 30px;
 }
