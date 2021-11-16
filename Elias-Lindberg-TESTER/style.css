@@ -104,6 +104,7 @@ body {
 
 .imageStyle1 {
   margin-top: 40px;
+
 }
 
 .imageSize1 {
@@ -165,11 +166,17 @@ body {
 
 .imageStyle2 {
   margin-top: 40px;
+  height: 80px;
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .imageSize2 {
-  height: 80px;
-  width: 80px;
+  height: 100%;
+  width: 100%;
+
 }
 
 .ContainerH4Style2 {
