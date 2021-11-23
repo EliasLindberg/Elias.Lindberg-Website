@@ -3,6 +3,7 @@ body {
   background: no-repeat;
   background-image: url(Maybe_BetterIDEA.jpg);
   background-size: 100%;
+  position:relative;
 }
 
 .HeaderMS {
@@ -29,7 +30,6 @@ body {
 .LänkarPosition {
   box-sizing: border-box;
   display: block;
-
   margin-left: 170px;
   margin-right: 170px;
   margin-bottom: 40px;
@@ -77,7 +77,7 @@ body {
   border-image-outset: 0px;
   box-sizing: border-box;
   display: flex;
-  flex-basis: 33, 3333%;
+  flex-basis: auto;
   height: 360px;
   width: 380px;
   max-height: 100%;
@@ -86,8 +86,7 @@ body {
   font-size: 25px;
   text-align: center;
   position: relative;
-  flex-grow: 0;
-  flex-shrink: 0;
+
   background-origin: padding-box;
 }
 
@@ -104,12 +103,15 @@ body {
 
 .imageStyle1 {
   margin-top: 40px;
-
+  height: 80px;
+  width: 90px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .imageSize1 {
-  height: 80px;
-  width: 80px;
+  height: 100%;
+  width: 100%;
 }
 
 .ContainerH4Style1 {
@@ -124,12 +126,17 @@ body {
 }
 
 .ContainerLänk1 {
-  margin-top: 20px;
+  margin: 20px auto 30px auto;
   color: darkorange;
   font-size: 18px;
   text-decoration: none;
-  margin-bottom: 30px;
 }
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
 
 .ContainerStyle2 {
   background-color: rgb(245, 245, 245);
@@ -191,11 +198,10 @@ body {
 }
 
 .ContainerLänk2 {
-  margin-top: 20px;
+  margin: 20px auto 30px auto;
   color: darkorange;
   font-size: 18px;
   text-decoration: none;
-  margin-bottom: 30px;
 }
 
 .ContainerStyle3 {
@@ -255,9 +261,8 @@ body {
 }
 
 .ContainerLänk3 {
-  margin-top: 20px;
+  margin: 20px auto 30px auto;
   color: darkorange;
   font-size: 18px;
   text-decoration: none;
-  margin-bottom: 30px;
 }
