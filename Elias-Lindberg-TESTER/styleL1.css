@@ -3,63 +3,107 @@ body {
 }
 
 .TopLayout {
+  display: block;
+  flex-direction: column;
+}
+
+.TopTextImgLayout1 {
   display: flex;
+  justify-content: center;
   flex-direction: row;
-  flex-wrap: nowrap;
+  justify-content: space-evenly;
   margin-top: 50px;
 }
 
-.TopTextLayout {
-  box-sizing: border-box;
-  font-size: 20px;
-  
-}
-
-.TopTextStyle {
-
-  margin-left: 200px;
-  margin-right: 500px;
-
+.TopTextStyle1 {
+  border-style: solid;
+  font-size: 18px;
+  flex-basis: auto;
+  width: 250px;
+  height: auto;
+  background-color: rgb(240, 240, 240);
+  border-color:rgb(240, 240, 240);
+  border-width: 10px;
+  height: 380px;
 }
 
 .TopText1 {
   font-size: 100%;
-  border-style: solid;
-  border-color: rgb(230, 240, 240);
-  background-color: rgb(230, 240, 240);
-  padding: 20px;
-  margin-top: 10px;
 }
 
-.TopText2 {
-  margin-top: 70px;
-  font-size: 100%;
-  border-style: solid;
-  border-color: rgb(230, 240, 240);
-  background-color: rgb(230, 240, 240);
-  padding: 20px;
-  
-}
-
-.TopimgLayout {
-  display: flex;
-  flex-direction: column;
-  margin-left: -200px;
-  margin-right: 200px;
+.TopimgStyle1 {
+  height: 197.5px;
+  width: 300px;
 }
 
 .Topimg1 {
-  border-style: solid;
-  border-width: 10px;
-  border-color: rgb(245, 245, 245);
-  height: 300px;
-  width: 400px;
+  height: 100%;
+  width: 100%;
+}
+
+.TopText2 {
+  font-size: 100%;
+
 }
 
 .Topimg2 {
+height: 100%;
+width: 100%;
+}
+
+
+/* StorBild */
+
+.StorBildLayoutStyle {
+display: flex;
+justify-content: center;
+width: 1000px;
+height: 500px;
+margin-top: 100px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.Storimg {
+ height: 100%;
+ width: 100%;
+}
+
+/* Bottom */
+
+.BottomTextLayout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+.BTextStyle1 {
   border-style: solid;
-  border-width: 10px;
-  border-color: rgb(245, 245, 245);
-  height: 300px;
-  width: 400px;
+  background-color: rgb(230, 230, 230);
+  border-width: 0;
+  border-color: rgb(230, 230, 230);
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.BTextStyle2 {
+  border-style: solid;
+  background-color: rgb(230, 230, 230);
+  border-width: 0;
+  border-color: rgb(230, 230, 230);
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.BTextStyle3 {
+  border-style: solid;
+  background-color: rgb(230, 230, 230);
+  border-width: 0;
+  border-color: rgb(230, 230, 230);
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 20px;
 }
